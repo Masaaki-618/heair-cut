@@ -2,6 +2,9 @@ html{
     font-size: 62.5%;
 }
 
+a{
+    color: #333333;
+}
 
 
 body{
@@ -13,10 +16,68 @@ img{
     height: auto;
 }
 
+.header-inner{
+    padding: 0 20px 0;
+}
+
+.main-inner{
+    padding: 0 40px 0;
+}
+
 .pc{
     display: none;
 }
 
+.google-map{
+    z-index: -1;
+    border-radius: 50%;
+    position: relative;
+    padding-top: 70%;
+}
+
+.map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* header */
+.top-menu{
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    position: fixed;
+}
+
+.title{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 1.5rem;
+}
+
+.headr-sp{
+    display: block;
+    margin-top: 80px;
+}
+/* concept */
+.concept-text{
+    text-align: center;
+    font-size: 13px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+/* concept */
+
+/* news */
+.newe-eria{
+    margin-bottom: 20px;
+}
+/* news */
+
+/* header */
 @media  screen and (min-width:680px){
     .sp{
         display: none;

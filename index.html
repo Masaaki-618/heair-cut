@@ -5,39 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>LEXE</title>
 </head>
 <body>
     <!-- header -->
-    <header>
-        <img src="/img/bg01.png" alt="">
-        <h1>Lexe</h1>
-        <nav class="sp">
-            <div></div>
-            <div></div>
-            <div></div>
-            <input type="button" id="">
-            <label for="btn">menu</label>
-        </nav>
+    <header class="header-inner">
+        <div class="top-menu">
+            <img src="/img/bg01.png" alt="">
+            <h1 class="title">Lexe</h1>
+            <div class="btn">
+                    <nav class="hanbagar-list sp" id="btn">
+                        <span class="line line1"></span>
+                        <span class="line line2"></span>
+                        <span class="line line3"></span>
+                    </nav>
+            </div>
 
-        <ul class="sp">
-            <li>top</li>
-            <li>news</li>
-            <li>reservation</li>
-            <li>menu</li>
-            <li>location</li>
-            <li><span></span></li>
-        </ul>
+            <div class="sp">
+                <ul class="header-btn-list" id="headerbtnlist">
+                    <a href=""><li>top</li></a>
+                    <a href=""><li>news</li></a>
+                    <a href=""><li>reservation</li></a>
+                    <a href=""><li>menu</li></a>
+                    <a href=""><li>location</li></a>
+                    <a href=""><li><img src="/img/ copy.jpg" alt=""></li></a>
+                </ul>
+            </div>
 
-        <img src="/img/slide03.jpg" class="sp">
+        </div>
+
+        <img src="/img/slide03.jpg" class="sp headr-sp">
         <img src="/img/slide-pc.jpg" class="pc">
     </header>
      <!-- header -->
-    <main>
+    <main class="main-inner">
     <!-- concept -->
     <section>
-        <h2><span>c</span>oncept</h2>
-        <p>Lexeでは、お客様一人ひとりに、似合うヘアデザインをご提案させていただきたいと考えます<br>
+        <h2 class="h2-title"><span>c</span>oncept</h2>
+        <p class="concept-text">Lexeでは、<br> お客様一人ひとりに、似合うヘアデザインをご提案させていただきたいと考えます<br>
             受けと攻めの技術で洗練させたヘアスタイルの追求そのヘアスタイルに触れた人に、"さまざま"を感じてもらうこと緻密で果断を合わせるカット、
             そこから繰り広げるヘアーカラー、パーマスペシャリストによる、すてきなライフスタイルをご提供する"場"でありたいと思います</p>
         <img src="/img/bg01.png" alt="">
@@ -46,8 +54,8 @@
 
     <!-- news -->
     <section>
-        <h2><span>n</span>ews</h2>
-        <dl>
+        <h2 class="h2-title"><span>n</span>ews</h2>
+        <dl class="newe-eria">
             <dd>2020.05.08</dd>
             <dt>臨時休業のお知らせ...</dt>
         </dl>
@@ -239,9 +247,9 @@
     <!-- location -->
     <section>
         <h2><span>l</span>ocation</h2>
-        <div>
+        <div class="google-map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1182.730843599652!2d139.72300571904498!3d35.68652299920935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cf2cd9203df%3A0xec04c096e3fdd84c!2z44CSMTYwLTAwMDQg5p2x5Lqs6YO95paw5a6_5Yy65Zub6LC377yS5LiB55uu77yR77yU4oiS77yZIDFG!5e0!3m2!1sja!2sjp!4v1589805032994!5m2!1sja!2sjp" 
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
         </div>
 
         <div>
@@ -285,5 +293,6 @@
         <img src="/img/bg01.png" alt="">
     </footer>
     <!-- fotter -->
+    <script src="main.js"></script>
 </body>
 </html>
