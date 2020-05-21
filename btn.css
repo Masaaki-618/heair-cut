@@ -1,3 +1,7 @@
+.text-align{
+    margin: 0 auto;
+}
+
 .btn{
     position: absolute;
     top: 20px;
