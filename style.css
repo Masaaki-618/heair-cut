@@ -30,22 +30,21 @@ img{
 }
 
 .google-map{
+    width: 250px;
+    height: 250px;
     z-index: -1;
-    border-radius: 50%;
-    position: relative;
-    padding-top: 70%;
+    margin: 0 auto 40px;
 }
 
 .map{
-    position: absolute;
-    top: 0;
-    left: 0;
+    border-radius: 50%;
     width: 100%;
     height: 100%;
 }
 
 /* header */
 .top-menu{
+    left: 0;
     top: 0;
     right: 0;
     background-color: #fff;
@@ -246,8 +245,44 @@ img{
 .inst-etxt{
     margin-bottom: 20px;
 }
+
 /* salon */
 
+/* menu */
+.crezit-text{
+    margin-bottom: 100px;
+}
+/* menu */
+
+/* location */
+.location-text div{
+    margin-bottom: 40px;
+}
+
+.location-text span{
+    box-sizing: border-box;
+    margin-bottom: 26px;
+    height: 26px;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    width: 80px;
+    border: 1px solid #000;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.last-box{
+    color: white;
+    background-color: #000;
+}
+
+.location-text p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+/* location */
 
 /* header */
 @media  screen and (min-width:680px){
