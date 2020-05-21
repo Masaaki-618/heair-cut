@@ -74,8 +74,72 @@ img{
 /* news */
 .newe-eria{
     margin-bottom: 20px;
+    border-bottom: 2px solid #8F8F8F;
 }
+
+.newe-eria:last-child{
+    margin-bottom: 50px;
+}
+
+.newe-eria dd{
+    font-size: 1.5rem;
+    color: #60A66D;
+    margin-bottom: 15px;
+} 
+
+.newe-eria dt{
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.news-more{
+    margin: 50px 0 100px;
+    text-align: center;
+    display: block;
+}
+
+.newe-phone dt{
+    display: inline-block;
+    background-image: url(/img/tel.jpg);
+    background-repeat: no-repeat;
+}
+
+.phone-text{
+    vertical-align: 23px;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.newe-phone{
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.phone{
+    color: #545454;
+    font-family: 'comic Sans MS';
+    letter-spacing: 2px;
+    position: absolute;
+    left: 57px;
+    top: 20px;
+    font-size: 2.5rem;
+}
+
+.news-img{
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.reservation{
+    margin-right: 25px;
+}
+
+
+
 /* news */
+
 
 /* header */
 @media  screen and (min-width:680px){
